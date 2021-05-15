@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/finals_image"/>
+
+        <TextView
+            android:id="@+id/date_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line 1"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@+id/image_view"/>
+
+        <TextView
+            android:id="@+id/class_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line 2"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@+id/image_view"
+            android:layout_below="@+id/date_display"/>
+
+        <TextView
+            android:id="@+id/type_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line 3"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@+id/image_view"
+            android:layout_below="@+id/class_display"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
