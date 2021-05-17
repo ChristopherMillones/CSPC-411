@@ -6,6 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import com.example.myapplication.data.User
+import com.example.myapplication.data.UserDatabase
+import com.example.myapplication.data.UserRepository
 
 class MainActivity : AppCompatActivity() {
 

@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#051640"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity5">
 
     <Button
-        android:id="@+id/btnHome"
+        android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go Home"
+        android:text="Go Back"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -47,7 +47,7 @@
                 android:layout_weight="1"/>
 
             <EditText
-                android:id="@+id/etClassNumber"
+                android:id="@+id/etClassNumber1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -83,7 +83,7 @@
 
 
             <EditText
-                android:id="@+id/etDate"
+                android:id="@+id/etDate1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -118,7 +118,7 @@
                 android:layout_weight="1"/>
 
             <Spinner
-                android:id="@+id/spnrTask"
+                android:id="@+id/spnrTask1"
                 android:textAlignment="center"
                 android:dropDownSelector="@color/white"
                 android:dropDownWidth="wrap_content"
@@ -130,15 +130,14 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/btnAddConfirm"
+            android:id="@+id/btnUpdate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Confirm"
+            android:text="update"
             android:textSize="18dp"
             />
 
     </LinearLayout>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
